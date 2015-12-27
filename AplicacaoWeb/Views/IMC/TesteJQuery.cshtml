@@ -1,0 +1,25 @@
+﻿    <h2>lista de calculos</h2>
+    <ul id="lista"></ul>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            var calcula = function (peso, altura) {
+                $.getJSON("/api/calculoimc?peso="+peso+"&altura="+altura, function (imc) {
+
+                    $("ul#lista").append($(document.createElement("li")).text("Peso: " + imc.Peso +
+                          " - Altura: " + imc.Altura +
+                          " - Valor do IMC: " + imc.ValorIMC +
+                          " - Situação: " + imc.DescSituacao));
+
+                });
+            }
+
+
+            calcula(50, 1.70);
+            calcula(90, 1.90);
+            calcula(40, 1.65);
+            calcula(70, 1.75);
+            calcula(45, 1.93);
+        });
+
+    </script>

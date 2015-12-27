@@ -1,0 +1,40 @@
+﻿@model AplicacaoWeb.Models.IMC
+
+<div>
+    <h4>Cálculo do IMC via WebApi.Client</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            Peso
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Peso)
+        </dd>
+
+        <dt>
+            Altura
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Altura)
+        </dd>
+
+        <dt>
+            Valor do IMC
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.ValorIMC)
+        </dd>
+
+        <dt>
+            Situação
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DescSituacao)
+        </dd>
+
+    </dl>
+</div>

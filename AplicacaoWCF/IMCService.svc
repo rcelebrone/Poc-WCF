@@ -1,0 +1,1 @@
+﻿<%@ ServiceHost Language="C#" Debug="true" Service="AplicacaoWCF.IMCService" CodeBehind="IMCService.svc.cs" %>

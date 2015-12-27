@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="988d5d70-0cbd-4900-89dd-775c96c7babf" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52647/IMCService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="IMCService.disco" MetadataType="Disco" ID="cea34edf-b517-4b1b-8b35-26b98d252670" SourceId="1" SourceUrl="http://localhost:52647/IMCService.svc?disco" />
+    <MetadataFile FileName="IMCService.xsd" MetadataType="Schema" ID="5919ec47-92e6-46cd-ac29-2156abbc9436" SourceId="1" SourceUrl="http://localhost:52647/IMCService.svc?xsd=xsd0" />
+    <MetadataFile FileName="IMCService1.xsd" MetadataType="Schema" ID="e22b68e3-1a33-4745-b395-145649e5c419" SourceId="1" SourceUrl="http://localhost:52647/IMCService.svc?xsd=xsd1" />
+    <MetadataFile FileName="IMCService2.xsd" MetadataType="Schema" ID="2661a05b-fdf7-4139-9d3d-c34ab7a9b28a" SourceId="1" SourceUrl="http://localhost:52647/IMCService.svc?xsd=xsd2" />
+    <MetadataFile FileName="IMCService.wsdl" MetadataType="Wsdl" ID="0fe26063-7f10-44a0-8493-33e523f287f6" SourceId="1" SourceUrl="http://localhost:52647/IMCService.svc?wsdl" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
